@@ -55,11 +55,9 @@ export default function Contactsection() {
         opacity: 0,
       });
     }
-    console.log("use effect hook, inView = ", inView);
   }, [animation, inView]);
 
   const onChange = (value) => {
-    console.log("Captcha value: ", value);
     if (value.length > 0) {
       setToken(value);
     }
