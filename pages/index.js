@@ -16,7 +16,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Touger Thao: Front-end Developer</title>
-        <meta name="description" content="Delicious paleo cookies" />
+        <meta
+          name="description"
+          content="A front-end developer from Minnesota."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Herosection />
