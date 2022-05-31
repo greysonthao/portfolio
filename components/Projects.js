@@ -183,7 +183,9 @@ export default function Projects() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <Box>
-              <Video source={"https://www.youtube.com/embed/TMFV5LX8TY4"} />
+              <Video
+                source={"https://www.youtube-nocookie.com/embed/MYXarhkJ5lo"}
+              />
             </Box>
           </Grid>
           <Grid item xs={12} sm={6}>
