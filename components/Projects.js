@@ -3,16 +3,12 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import Image from "next/image";
-import profilePic from "../images/TougerThao7X7.jpg";
 import Link from "@mui/material/Link";
 import Paper from "@mui/material/Paper";
-import AstralFinance from "../images/astralfinance-rounded.png";
 import Button from "@mui/material/Button";
 import Video from "../components/Video";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import videoImage from "../images/laluna-cookies-youtube-image.png";
 
 const astralSkills = [
   "HTML",
@@ -106,7 +102,7 @@ export default function Projects() {
 
   return (
     <>
-      <Box padding="8rem 0 5rem 0">
+      <Box padding="4rem 0 1rem 0">
         <Typography
           variant="h3"
           fontFamily="'Montserrat', sans-serif"
@@ -255,9 +251,11 @@ export default function Projects() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <Box
-              sx={{
-                margin: "2rem 1rem 1rem 1rem",
-              }}
+              sx={
+                {
+                  /* margin: "2rem 1rem 1rem 1rem", */
+                }
+              }
             >
               <Video
                 source={"https://www.youtube-nocookie.com/embed/_Ha1kiagvyw"}
@@ -329,11 +327,7 @@ export default function Projects() {
             </Box>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Box
-              sx={{
-                margin: "6rem 1rem 10rem 1rem",
-              }}
-            >
+            <Box margin="0rem 0rem 6rem 0rem">
               <Video
                 source={"https://www.youtube-nocookie.com/embed/MTvkwZcmWms"}
               />

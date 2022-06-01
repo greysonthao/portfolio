@@ -2,16 +2,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Paper from "@mui/material/Paper";
-import blueImage from "../images/blue-background2.png";
 import Image from "next/image";
 import Box from "@mui/material/Box";
-import OrderButton from "./OrderButton";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import profilePic from "../images/TougerThao7X7.jpg";
 
 const skills = [
@@ -63,7 +60,7 @@ export default function Problemsection() {
         }}
       >
         <Container maxWidth="lg">
-          <Box padding="8rem 0 8rem 0">
+          <Box padding="8rem 0 4rem 0" sx={{ boxShadow: 0 }}>
             <Typography
               variant="h3"
               fontFamily="'Montserrat', sans-serif"
@@ -77,9 +74,7 @@ export default function Problemsection() {
                 <Box
                   display="flex"
                   justifyContent="left"
-                  sx={{
-                    margin: "3rem 2rem 2rem 0",
-                  }}
+                  margin="3rem 2rem 2rem 0"
                 >
                   <Image src={profilePic} alt="Touger Thao" />
                 </Box>
@@ -108,11 +103,11 @@ export default function Problemsection() {
                     sx={{ margin: "1rem 0 1rem 0" }}
                   >
                     There's a special feeling you get when you create something
-                    from scratch. As a kid, I got that feeling when I was
-                    spending countless hours drawing my own superhero
-                    characters. As a teen, I got that feeling creating new songs
-                    while strumming on my acoustic guitar. Now, I get that
-                    feeling when I code.
+                    from scratch. As a kid, I got that feeling spending
+                    countless hours in my bedroom drawing my own superhero
+                    characters. As a teen, I got that feeling writing new songs
+                    while strumming my acoustic guitar. Now, I get that feeling
+                    when I code.
                   </Typography>
                 </Box>
               </Grid>

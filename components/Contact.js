@@ -45,7 +45,7 @@ export default function Contactsection() {
       animation.start({
         opacity: 1,
         transition: {
-          duration: 2,
+          duration: 1,
         },
       });
     }
@@ -110,7 +110,7 @@ export default function Contactsection() {
         <Container maxWidth="lg">
           <Box
             ref={ref}
-            padding="8rem 0 8rem 0"
+            padding="4rem 0 8rem 0"
             component={motion.div}
             animate={animation}
           >
