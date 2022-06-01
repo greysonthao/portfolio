@@ -111,7 +111,7 @@ export default function Problemsection() {
                     <br />
                     Now, my passion is front-end software development. I want to
                     create a more equitable world by developing software built
-                    on democratized data and a decentralized web.
+                    with democratized data and a decentralized web.
                   </Typography>
                 </Box>
               </Grid>
