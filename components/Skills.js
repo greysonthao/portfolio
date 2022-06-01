@@ -94,7 +94,7 @@ export default function Problemsection() {
                     fontWeight="bold"
                     fontFamily="'Montserrat', sans-serif"
                   >
-                    I love creating things
+                    I love building things
                   </Typography>
                   <Typography
                     variant="body1"
@@ -102,12 +102,16 @@ export default function Problemsection() {
                     fontWeight="300"
                     sx={{ margin: "1rem 0 1rem 0" }}
                   >
-                    There's a special feeling you get when you create something
-                    from scratch. As a kid, I got that feeling spending
-                    countless hours in my bedroom drawing my own superhero
-                    characters. As a teen, I got that feeling writing new songs
-                    while strumming my acoustic guitar. Now, I get that feeling
-                    when I code.
+                    I built a non-profit organization from the ground up that
+                    continues today. My wife and I built an e-commerce business
+                    creating books and flashcards for kids to learn the Hmong
+                    language. I helped build the marketing systems for a crypto
+                    data startup.
+                    <br />
+                    <br />
+                    Now, my passion is front-end software development. I want to
+                    build software that will help create a better future for our
+                    world.
                   </Typography>
                 </Box>
               </Grid>
