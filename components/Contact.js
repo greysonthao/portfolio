@@ -15,6 +15,7 @@ import Grid from "@mui/material/Grid";
 import styled from "@emotion/styled";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
+import { event } from "nextjs-google-analytics";
 
 export default function Contactsection() {
   const [token, setToken] = React.useState("");
@@ -92,6 +93,12 @@ export default function Contactsection() {
           console.log(error.text);
         }
       );
+
+    event("submit_form", {
+      category: "Contact",
+      label: "The contact form has been submitted",
+    });
+
     alert("The contact form has been sent!");
     e.target.reset();
   };
