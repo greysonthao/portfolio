@@ -15,6 +15,7 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "React.js",
   "Next.js",
   "Chart.js",
@@ -104,14 +105,13 @@ export default function Problemsection() {
                   >
                     I built a non-profit organization from the ground up that
                     continues today. My wife and I built an e-commerce business
-                    creating books and flashcards for kids to learn the Hmong
-                    language. I helped build the marketing systems for a crypto
-                    data startup.
+                    that helps to preserve a dying language. I helped build a
+                    podcast to over 1 million downloads.
                     <br />
                     <br />
-                    Now, my passion is front-end software development. I want to
-                    create a more equitable world by developing software built
-                    with democratized data and a decentralized web.
+                    Now, my passion is coding. I want to create a more equitable
+                    world by building software on democratized data and a
+                    decentralized web.
                   </Typography>
                 </Box>
               </Grid>

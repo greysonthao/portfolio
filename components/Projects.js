@@ -14,6 +14,7 @@ const astralSkills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "React.js",
   "Next.js",
   "Chart.js",
@@ -36,6 +37,7 @@ const playfulPoniesSkills = [
   "HTML",
   "CSS",
   "JavaScript",
+  "TypeScript",
   "React.js",
   "Next.js",
   "MUI",
@@ -140,7 +142,7 @@ export default function Projects() {
               </Typography>
               <Box display="flex" justifyContent="center">
                 <Link
-                  href="https://github.com/tougerthao/nft-minting-dapp-terra"
+                  href="https://github.com/tougerthao/pp-frontend"
                   target="_blank"
                   rel="noopener"
                   underline="none"
@@ -158,7 +160,7 @@ export default function Projects() {
                   </Button>
                 </Link>
                 <Link
-                  href="https://playful-ponies-terra.vercel.app/"
+                  href="https://playful-ponies-dapp.vercel.app/"
                   target="_blank"
                   rel="noopener"
                   underline="none"
