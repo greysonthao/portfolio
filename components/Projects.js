@@ -46,6 +46,7 @@ const playfulPoniesSkills = [
   "Rust",
   "CosmWasm",
   "Terrain",
+  "Docker",
 ];
 
 export default function Projects() {

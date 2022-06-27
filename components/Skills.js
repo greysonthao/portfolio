@@ -9,7 +9,7 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import profilePic from "../images/TougerThao7X7.jpg";
+import profilePic from "../images/touger-profile-pic-white-bg.png";
 
 const skills = [
   "HTML",
