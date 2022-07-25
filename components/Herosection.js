@@ -82,7 +82,7 @@ export default function Herosection() {
           fontFamily="'Libre Baskerville', sans-serif"
           fontStyle="italic"
         >
-          Front-end Developer
+          Software Developer
         </Typography>
         {matches && (
           <Box display="flex" justifyContent="center">
